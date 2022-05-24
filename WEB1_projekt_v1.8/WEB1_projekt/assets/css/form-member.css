@@ -1,0 +1,59 @@
+.form-member {
+  font-family: "Open Sans Condensed", arial, sans;
+  width: 500px;
+  padding: 30px;
+  background: whitesmoke;
+  margin: 50px auto;
+  display: table;
+  left: 50%;
+  top: 35%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+.form-member h2 {
+  background: #4d4d4d;
+  text-transform: uppercase;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 20px;
+  margin: -30px -30px 30px -30px;
+  border-radius: 5px;
+}
+.form-member input[type="email"],
+.form-member input[type="text"] {
+  box-sizing: border-box;
+  outline: none;
+  display: block;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
+  margin-bottom: 10px;
+  font: 16px Arial, Helvetica, sans-serif;
+  height: 45px;
+}
+
+.form-member input[type="submit"] {
+  box-shadow: inset 0px 1px 0px 0px #45d6d6;
+  background-color: #2cbbbb;
+  border: 1px solid #27a0a0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 14px;
+  padding: 8px 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.form-member input[type="submit"]:hover {
+  background: linear-gradient(to bottom, #34caca 5%, #30c9c9 100%);
+  background-color: #34caca;
+}
+
+

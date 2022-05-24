@@ -1,0 +1,42 @@
+if (isset($_POST['bookID'])) {
+
+    $bookID = $_POST['member'];
+    $memberID = $_POST['book'];
+    $startDate = $_POST['startDate'];
+    $endDate = $_POST['endDate'];
+
+    $sql = "INSERT INTO loanbook (bookID, memberID, startDate, endDate)
+        VALUES ('" . $bookID . "', '" . $memberID . "', '" . $startDate . "', '" . $endDate . "')";
+    if (mysqli_query($db, $sql)) {
+        $message = "Book loaned!";
+    } else {
+        $message = "Error: " . mysqli_error($db);
+    }
+}
+
+if (!empty($_POST['members'])) {
+        $selectedMember = $_POST['members'];
+        echo 'You have chosen: ' . $selectedMember;
+    } else {
+        echo 'Please select the value.';
+    }
+
+    if (!empty($_POST['books'])) {
+        $selectedBook = $_POST['books'];
+        echo 'You have chosen: ' . $selectedBook;
+    } else {
+        echo 'Please select the value.';
+    }
+
+    $bookID = $_POST['books'];
+    $memberID = $_POST['members'];
+    $startDate = $_POST['startDate'];
+    $endDate = $_POST['endDate'];
+
+    $sql = "INSERT INTO loanbook (bookID, memberID, startDate, endDate)
+    VALUES ('" . $bookID . "', '" . $memberID . "', '" . $startDate . "', '" . $endDate . "')";
+    if (mysqli_query($db, $sql)) {
+        $message = "Book loaned!";
+    } else {
+        $message = "Error: " . mysqli_error($db);
+    }

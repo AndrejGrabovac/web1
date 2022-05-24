@@ -1,0 +1,100 @@
+.container-book {
+  font-family: "Open Sans Condensed", arial, sans;
+  width: 900px;
+  padding: 30px;
+  background: whitesmoke;
+  margin: 50px auto;
+  display: table;
+  left: 50%;
+  top: 20%;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  border-radius: 5px;
+}
+.container-book h2 {
+  background: #4d4d4d;
+  text-transform: uppercase;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 20px;
+  border-radius: 5px;
+  margin: -30px -30px 30px -30px;
+}
+.container-member {
+  font-family: "Open Sans Condensed", arial, sans;
+  width: 900px;
+  padding: 30px;
+  background: whitesmoke;
+  margin: 50px auto;
+  display: table;
+  left: 50%;
+  top: 20%;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  border-radius: 5px;
+}
+.container-member h2 {
+  background: #4d4d4d;
+  text-transform: uppercase;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 20px;
+  border-radius: 5px;
+  margin: -30px -30px 30px -30px;
+}
+
+.table {
+  border-collapse: collapse;
+  margin: auto;
+  border-spacing: 0 15px;
+  width: 100%;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table thead {
+  background-color: #dddddd;
+  position: sticky;
+}
+table thead {
+  inset-block-start: 0;
+}
+
+tbody .edit{
+	box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	background-color: #00ff00;
+	border: 1px solid #7fff00;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+
+tbody .delete{
+	box-shadow: inset 0px 1px 0px 0px #ff3333;
+	background-color: #ff1a1a;
+	border: 1px solid #ff0000;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+
